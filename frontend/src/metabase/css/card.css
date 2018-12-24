@@ -29,13 +29,91 @@
 .Card-defaultBox {
   height: 500px;
 }
-/*--Added By SagarDobariya --*/
-.DashboardGrid .DashCard:nth-child(3) .Card {
-    background-color: #ff7b00;
-    color: #fff;
-    border-color: #ff7b00;
+/*-- Added CSS For Boxes Color Customization Start--*/
+/**** Color Combinattion 1 *****/
+
+.DashboardGrid .DashCard:nth-child(1) .Card {
+    background-color: #deffdd;
+    border-color: #cbfbc8;
+    color: #40b93c;
 }
-/*----*/
+.DashboardGrid .DashCard:nth-child(2) .Card {
+    background-color: #b2efb0;
+    border-color: #a9f3a7;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(3) .Card {
+    background-color: #deffdd;
+    border-color: #cbfbc8;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(4) .Card {
+    background-color: #b2efb0;
+    border-color: #a9f3a7;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(5) .Card {
+    background-color: #ffe2d3;
+    color: #ff5900;
+    border-color: #fbdecd;
+}
+.DashboardGrid .DashCard:nth-child(6) .Card {
+    background-color: #ffc6a6;
+    border-color: #ffc5a0;
+    color: #f35802;
+}
+.DashboardGrid .DashCard:nth-child(7) .Card {
+    background-color: #ffe2d3;
+    color: #ff5900;
+    border-color: #fbdecd;
+}
+.DashboardGrid .DashCard:nth-child(8) .Card {
+    background-color: #ffc6a6;
+    border-color: #ffc5a0;
+    color: #f35802;
+}
+.DashboardGrid .DashCard:nth-child(9) .Card {
+    background-color: #c0c0ff;
+    border-color: #c0c0ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(10) .Card {
+    background-color: #d9d9ff;
+    border-color: #dad9ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(11) .Card {
+    background-color: #c0c0ff;
+    border-color: #c0c0ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(12) .Card {
+    background-color: #d9d9ff;
+    border-color: #dad9ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(13) .Card {
+    background-color: #d0efff;
+    color: #18a6ef;
+    border-color: #d0efff;
+}
+.DashboardGrid .DashCard:nth-child(14) .Card {
+    background-color: #e7f7ff;
+    border-color: #e7f7ff;
+    color: #47a6ef;
+}
+.DashboardGrid .DashCard:nth-child(15) .Card {
+    background-color: #d0efff;
+    color: #18a6ef;
+    border-color: #d0efff;
+}
+.DashboardGrid .DashCard:nth-child(16) .Card {
+    background-color: #e7f7ff;
+    border-color: #e7f7ff;
+    color: #47a6ef;
+}
+/**** Color Combinattion 1 *****/
+/*-- Added CSS For Boxes Color Customization Over--*/
 @media screen and (--breakpoint-min-md) {
   .Card-title {
     font-size: 0.8em;
