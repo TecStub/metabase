@@ -118,7 +118,7 @@
 
 .DashboardGrid .DashCard:nth-child(1):after {
     content: "";
-    background-image: url(app/assets/img/1280px-FedEx_Ground.svg.png);
+    background-image: url(../../assets/img/1280px-FedEx_Ground.svg.png);
     width: 130px;
     position: absolute;
     background-size: 120px;
@@ -131,7 +131,7 @@
 }
 .DashboardGrid .DashCard:nth-child(5):after {
     content: "";
-    background-image: url(app/assets/img/FedEx_Express.svg/1280px-FedEx_Express.svg.png);
+    background-image: url(../../assets/img/FedEx_Express.svg/1280px-FedEx_Express.svg.png);
     width: 130px;
     position: absolute;
     background-size: 120px;
@@ -144,7 +144,7 @@
 }
 .DashboardGrid .DashCard:nth-child(9):after {
     content: "";
-    background-image: url(app/assets/img/usps_2.png);
+    background-image: url(../../assets/img/usps_2.png);
     width: 90px;
     position: absolute;
     background-size: 90px;
@@ -157,7 +157,7 @@
 }
 .DashboardGrid .DashCard:nth-child(13):after {
     content: "";
-    background-image: url(app/assets/img/MS_Logo_2.png);
+    background-image: url(../../assets/img/MS_Logo_2.png);
     height: 79px;
     width: 70px;
     position: absolute;
