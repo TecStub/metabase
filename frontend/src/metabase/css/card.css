@@ -1,0 +1,236 @@
+:root {
+  --card-border-color: var(--color-border);
+  --card-text-color: var(--color-text-medium);
+  --card-border-radius: 4px;
+
+  --card-scalar-text-lg: 2.4em;
+  --card-scalar-text-xl: 3.4em;
+}
+
+.Card {
+  position: relative;
+}
+
+.Card-footing {
+  font-size: 0.8rem;
+  color: var(--color-text-medium);
+}
+
+.Card-title {
+  color: var(--color-text-dark);
+  font-size: 0.8em;
+}
+
+.Card-dataSource {
+  color: var(--color-text-medium);
+  padding-top: 0.5em;
+}
+
+.Card-defaultBox {
+  height: 500px;
+}
+/*-- Added CSS For Boxes Color Customization Start--*/
+/**** Color Combinattion 1 *****/
+
+.DashboardGrid .DashCard:nth-child(2) .Card {
+    background-color: #deffdd;
+    border-color: #cbfbc8;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(1) .Card {
+    background-color: #b2efb0;
+    border-color: #a9f3a7;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(4) .Card {
+    background-color: #deffdd;
+    border-color: #cbfbc8;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(3) .Card {
+    background-color: #b2efb0;
+    border-color: #a9f3a7;
+    color: #40b93c;
+}
+.DashboardGrid .DashCard:nth-child(6) .Card {
+    background-color: #ffe2d3;
+    color: #ff5900;
+    border-color: #fbdecd;
+}
+.DashboardGrid .DashCard:nth-child(5) .Card {
+    background-color: #ffc6a6;
+    border-color: #ffc5a0;
+    color: #f35802;
+}
+.DashboardGrid .DashCard:nth-child(8) .Card {
+    background-color: #ffe2d3;
+    color: #ff5900;
+    border-color: #fbdecd;
+}
+.DashboardGrid .DashCard:nth-child(7) .Card {
+    background-color: #ffc6a6;
+    border-color: #ffc5a0;
+    color: #f35802;
+}
+.DashboardGrid .DashCard:nth-child(10) .Card {
+    background-color: #c0c0ff;
+    border-color: #c0c0ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(9) .Card {
+    background-color: #d9d9ff;
+    border-color: #dad9ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(12) .Card {
+    background-color: #c0c0ff;
+    border-color: #c0c0ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(11) .Card {
+    background-color: #d9d9ff;
+    border-color: #dad9ff;
+    color: #333366;
+}
+.DashboardGrid .DashCard:nth-child(14) .Card {
+    background-color: #d0efff;
+    color: #18a6ef;
+    border-color: #d0efff;
+}
+.DashboardGrid .DashCard:nth-child(13) .Card {
+    background-color: #e7f7ff;
+    border-color: #e7f7ff;
+    color: #47a6ef;
+}
+.DashboardGrid .DashCard:nth-child(16) .Card {
+    background-color: #d0efff;
+    color: #18a6ef;
+    border-color: #d0efff;
+}
+.DashboardGrid .DashCard:nth-child(15) .Card {
+    background-color: #e7f7ff;
+    border-color: #e7f7ff;
+    color: #47a6ef;
+}
+/**** Color Combinattion 1 *****/
+
+/*-- Added CSS For Boxes Color Customization Over--*/
+
+.DashboardGrid .DashCard:nth-child(1):after {
+    content: "";
+    background-image: url(app/assets/img/1280px-FedEx_Ground.svg.png);
+    width: 130px;
+    position: absolute;
+    background-size: 120px;
+    height: 51px;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    top: 70px;
+    left: -130px;
+    opacity: 0.5;
+}
+.DashboardGrid .DashCard:nth-child(5):after {
+    content: "";
+    background-image: url(app/assets/img/FedEx_Express.svg/1280px-FedEx_Express.svg.png);
+    width: 130px;
+    position: absolute;
+    background-size: 120px;
+    height: 51px;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    top: 70px;
+    left: -130px;
+    opacity: 0.5;
+}
+.DashboardGrid .DashCard:nth-child(9):after {
+    content: "";
+    background-image: url(app/assets/img/usps_2.png);
+    width: 90px;
+    position: absolute;
+    background-size: 90px;
+    height: 76px;
+    background-repeat: no-repeat;
+    top: 54px;
+    transform: rotate(-90deg);
+    left: -118px;
+    opacity: 0.5;
+}
+.DashboardGrid .DashCard:nth-child(13):after {
+    content: "";
+    background-image: url(app/assets/img/MS_Logo_2.png);
+    height: 79px;
+    width: 70px;
+    position: absolute;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    left: -110px;
+    top: 50px;
+    opacity: 0.5;
+}
+/*-- Added CSS For Boxes Color Customization Over--*/
+@media screen and (--breakpoint-min-md) {
+  .Card-title {
+    font-size: 0.8em;
+  }
+}
+
+.Card--errored {
+  min-height: 80px;
+}
+
+.Card-scalarValue {
+  overflow: hidden;
+}
+
+@media screen and (--breakpoint-min-lg) {
+  .Card-scalarValue {
+    font-size: var(--card-scalar-text-lg);
+  }
+}
+
+@media screen and (--breakpoint-min-xl) {
+  .Card-scalarValue {
+    font-size: var(--card-scalar-text-xl);
+  }
+}
+
+.CardSettings-group {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.CardSettings-groupTitle {
+  padding: 0.5em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.CardSettings-content {
+  padding: 2em;
+  background-color: var(--color-bg-white);
+}
+
+.CardSettings {
+  border-top: 1px solid var(--color-border);
+  box-shadow: inset 0 1px 1px var(--color-shadow);
+}
+
+.CardSettings-label {
+  font-size: 1.15em;
+  margin-left: 0.5em;
+  color: var(--color-text-dark);
+}
+
+.CardSettings-colorBlock {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+  border-radius: 4px;
+}
+
+.CardSettings-colorBlock:last-child {
+  margin-right: 0;
+}
+
+.Card--scalar {
+  padding: 1em;
+}
