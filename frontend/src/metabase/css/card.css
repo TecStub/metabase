@@ -170,7 +170,7 @@
 .Card .ScalarValue{
 	 font-size:12.5rem !important;
 }
-.Card .LegendItem{
+.Card .Scalar-title{
 	font-size:3.0rem !important	
 }
 /*-- Added CSS For Boxes Color Customization Over--*/
