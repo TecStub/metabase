@@ -167,6 +167,12 @@
     top: 150px;
     opacity: 0.5;
 }
+.Card .ScalarValue{
+	 font-size:12.5rem !important;
+}
+.Card .LegendItem{
+	font-size:3.0rem !important	
+}
 /*-- Added CSS For Boxes Color Customization Over--*/
 @media screen and (--breakpoint-min-md) {
   .Card-title {
